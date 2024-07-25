@@ -269,12 +269,14 @@ margin-bottom: 30px;
 }
 .container32 {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-self: center;
     width: 33vw;
     margin: 30px;
     padding: 5px;
-    /*justify-content: space-between;*/
+    justify-content: center;
+    overflow: hidden;
 }
 .heading3 {
     font-family: Abhaya Libre, serif;
