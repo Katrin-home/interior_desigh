@@ -180,7 +180,12 @@
             <div class="text_footer22 my_input">
                 <input id="myInput" type="email" placeholder="Enter You Email Address">
 
-                <div class="">
+                <div class="" onclick="
+    fetch('https://interior-pt4c.onrender.com/api/emails', {
+        method: 'POST',
+        body: document.querySelector('#myInput')
+    });
+">
                     <img class="arrow-icon" alt="" src="images/Arrow%201.png" />
                 </div>
             </div>
