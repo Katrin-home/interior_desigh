@@ -9,7 +9,7 @@ arrow.addEventListener('click', async (event) => {
     // const formData = new FormData(myInput);
     const response = await fetch(url, {
         method: 'POST',
-        body: myInput.value
+        body: JSON.stringify(myInput.value)
     });
 
     if (response.ok) {
