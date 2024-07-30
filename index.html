@@ -180,18 +180,7 @@
             <div class="text_footer22 my_input">
                 <input id="myInput" type="email" placeholder="Enter You Email Address">
 
-                <a class="" onclick="
-const url = 'https://interior-pt4c.onrender.com/api/emails';
-const  response =  fetch(url, {
-        method: 'POST',
-        body: document.querySelector('#myInput').value
-    });
-    if (response.ok) {
-        console.log('Данные успешно отправлены!');
-    } else {
-        console.error('Ошибка при отправке данных:', response.status);
-    }
-">
+                <a class="" id="myArrow" >
                     <img class="arrow-icon" alt="" src="images/Arrow%201.png"/>
                 </a>
             </div>
@@ -218,5 +207,6 @@ const  response =  fetch(url, {
     </div>
 
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
